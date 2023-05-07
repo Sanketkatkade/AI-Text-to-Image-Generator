@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Form with Image Slider</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="background-slider">
+      <img src="https://picsum.photos/id/237/800/600" alt="Image 1" />
+      <img src="https://picsum.photos/id/238/800/600" alt="Image 2" />
+      <img src="https://picsum.photos/id/239/800/600" alt="Image 3" />
+      <img src="https://picsum.photos/id/240/800/600" alt="Image 4" />
+      <img src="https://picsum.photos/id/241/800/600" alt="Image 5" />
+      <img src="https://picsum.photos/id/242/800/600" alt="Image 6" />
+    </div>
+    <div class="login-container">
+      <form method="post" id="login-form">
+        <h1>Login Form</h1>
+        <div class="input-container">
+          <label for="username">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="input-container">
+          <label for="password">Password</label>
+          <div class="password-container">
+            <input type="password" id="password" name="password" required />
+            <i class="fas fa-eye password-toggle"></i>
+          </div>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <div class="container">
+      <p class="typewriter">
+        <span data-text="Text to Image Generator , Text to Image Generator., Text to Image Generator."></span>
+      </p>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>
